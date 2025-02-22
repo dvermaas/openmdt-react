@@ -5,7 +5,6 @@ import './index.css';
 import App from './App.tsx';
 import Dashboard from './app/dashboard/page.tsx';
 import Login from './app/login/page.tsx';
-import FallbackToDjango from "@/components/fallback.tsx";
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
@@ -14,7 +13,6 @@ createRoot(document.getElementById('root')!).render(
         <Route path="/" element={<App />} />
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/login" element={<Login />} />
-        <Route path="*" element={<FallbackToDjango />} />
       </Routes>
     </BrowserRouter>
   </StrictMode>,
