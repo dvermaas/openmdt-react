@@ -38,7 +38,7 @@ const data = {
       isActive: true,
     },
     {
-      title: "Citizens",
+      title: "citizens",
       url: "#",
       icon: Users,
     },
