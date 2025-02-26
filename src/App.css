@@ -37,3 +37,9 @@
 .read-the-docs {
   color: #888;
 }
+
+
+:root {
+  /*--card: 210 40% 98%; !* Light mode card color (hsl values) *!*/
+  /*--card-foreground: 222.2 84% 4.9%; !* Light mode card text color *!*/
+}
